@@ -1,0 +1,132 @@
+body{
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color:rgb(241, 69, 98);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+img{
+    max-width: 100%;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.page{
+   margin: auto;
+   max-width: 90%; 
+
+}
+
+.header{
+    display: flex;
+    gap: 1rem;
+    justify-content:space-between ;
+
+    padding: 1.5rem;
+
+}
+
+.menu a{
+ text-decoration: none;
+ color: black;
+ text-transform: uppercase;
+ gap: 25px;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+}
+
+.menu  a.active{
+    color: orangered;
+
+}
+
+.logo{
+    text-decoration: none;
+   
+
+}
+
+.logo-text{
+    text-decoration: none;
+    color: orangered;
+    font-size: 2rem;
+}
+
+.footer{
+    display: flex;
+    gap: 1rem;
+justify-content: space-between;
+padding: 1.2rem;
+background-color: gray;
+
+}
+
+.footer-social{
+    display: flex;
+    gap: 0.85rem;
+}
+
+.footer-social a{
+    justify-content: space-between;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+    margin: auto;
+    max-width: 80%;
+}
+
+.hero{
+    
+    min-height: 100vh;
+}
+
+.hero-text{
+    
+    max-width: 450px;
+    margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.hero-container{
+    min-height: 100vh ;
+    display: flex;
+
+}
+.hero-title{
+   margin: 0;
+    color: orangered;
+    font-size: 2.5rem;
+}
+
+.hero-sub-title{
+    margin: 0 0 1.5  0;
+    font-size: 1.5rem;
+
+
+}
+
+
+.botton{
+    text-transform: uppercase;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+padding: 0.85rem 1.7rem;
+border-radius: 50px ;
+}
+.hero-image{
+    background-color: rgb(241, 238, 238);
+    width: 200px;
+    height: 100px;
+}
