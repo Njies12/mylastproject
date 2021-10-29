@@ -1,7 +1,7 @@
 body{
     font-size: 1rem;
     line-height: 1.5;
-    background-color:rgb(241, 69, 98);
+    background-color:white);
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -126,7 +126,5 @@ padding: 0.85rem 1.7rem;
 border-radius: 50px ;
 }
 .hero-image{
-    background-color: rgb(241, 238, 238);
-    width: 200px;
-    height: 100px;
+   
 }
